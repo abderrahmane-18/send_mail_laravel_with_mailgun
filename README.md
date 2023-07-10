@@ -1,3 +1,6 @@
+![send_mail(1)](https://github.com/abderrahmane-18/send_mail_laravel_with_mailgun/assets/96840007/46470104-4ed5-45bf-b39f-eb12a5299244)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
