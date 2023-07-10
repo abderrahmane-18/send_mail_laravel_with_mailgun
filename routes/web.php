@@ -1,6 +1,10 @@
 <?php
 
+use App\Mail\testingMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Barryvdh\Debugbar\Facades\Debugbar;
+use Symfony\Component\ErrorHandler\Debug;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +18,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    Debugbar::info('infi');
     return view('welcome');
+});
+Route::get('/send', function () {
+    
+ Mail::to('abderrahmaneboukhezar99@gmail.com')->send(new testingMail());
+ return response('sending');
 });
